@@ -5,9 +5,9 @@ from netmiko import ConnectHandler
 from getpass import getpass
 
 
-#This will ask you to input IP address of switch your username and password to access the 
+#This will ask you to input IP addresses of switch or switches.  Just leave a space between them your username and password to access the 
 #devices 
-IP = input("Enter IP adress seperated by a space: ")
+IP = input("Enter IP adresses seperated by a space: ")
 username = input('Enter your username: ')
 password = getpass()
 
